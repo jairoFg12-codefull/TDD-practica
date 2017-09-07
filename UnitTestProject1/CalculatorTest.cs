@@ -7,19 +7,25 @@ namespace UnitTestProject1
     [TestClass]
     public class CalculatorTest
     {
+        private Calculator _calculator;
+
+        [TestInitialize]
+        public void Setup()
+        {
+            _calculator = new Calculator();
+        }
+
         [TestMethod]
         public void Add()
         {
-            Calculator calculator = new Calculator();
-            int result = calculator.Add(2,2);
+            int result = _calculator.Add(2,2);
             Assert.AreEqual(4, result);
         }
 
         [TestMethod]
         public void AddWithDiferentArguments()
         {
-            Calculator calculator = new Calculator();
-            int result = calculator.Add(2,5);
+            int result = _calculator.Add(2,5);
             Assert.AreEqual(7, result);
         }
     }
