@@ -59,6 +59,14 @@
       <Name>Software</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Docs\1LibretaTestAceptacion.png" />
+    <Content Include="Docs\2LibretaTestAceptacion.png" />
+    <Content Include="Docs\3LibretaTestAceptacion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Docs\README.md" />
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>

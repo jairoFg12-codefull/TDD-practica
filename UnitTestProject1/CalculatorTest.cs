@@ -28,5 +28,12 @@ namespace UnitTestProject1
             int result = _calculator.Add(2,5);
             Assert.AreEqual(7, result);
         }
+
+        [TestMethod]
+        public void Substract()
+        {
+            int result = _calculator.Substract(5, 3);
+            Assert.AreEqual(2, result);
+        }
     }
 }
