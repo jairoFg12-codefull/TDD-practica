@@ -8,6 +8,11 @@ namespace Software.SuperCalculator
 {
     public class Calculator
     {
+        public Calculator(int minValue, int maxValue)
+        {
+
+        }
+
         public int Add(int arg1, int arg2)
         {
             return arg1 + arg2;
@@ -15,7 +20,7 @@ namespace Software.SuperCalculator
 
         public int Substract(int arg1, int arg2)
         {
-            return 2;
+            return arg1 - arg2;
         }
     }
 }

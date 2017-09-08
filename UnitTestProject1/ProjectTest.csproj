@@ -63,6 +63,7 @@
     <Content Include="Docs\1LibretaTestAceptacion.png" />
     <Content Include="Docs\2LibretaTestAceptacion.png" />
     <Content Include="Docs\3LibretaTestAceptacion.png" />
+    <Content Include="Docs\4LibretaTestAceptacion.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Docs\README.md" />
